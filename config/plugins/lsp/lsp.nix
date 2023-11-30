@@ -83,11 +83,11 @@
         };
         clangd = {
           enable = true;
-          installLanguageServer = false;
+          installLanguageServer = true;
         };
         pyright = {
           enable = true;
-          installLanguageServer = false;
+          installLanguageServer = true;
         };
         hls = {
           enable = true;

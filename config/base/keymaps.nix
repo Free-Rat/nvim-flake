@@ -234,67 +234,6 @@
         options.desc = "new tab";
         options.silent = true;
       }
-      # Misc
-      {
-        mode = "n";
-        key = "<C-u>";
-        action = "5k";
-        options.silent = true;
-      }
-      {
-        mode = "n";
-        key = "<C-d>";
-        action = "5j";
-        options.silent = true;
-      }
-      {
-        mode = "n";
-        key = "<C-.>";
-        action = "$";
-        options.silent = true;
-      }
-      {
-        mode = "i";
-        key = "<C-.>";
-        action = "<ESC>$";
-        options.silent = true;
-      }
-      {
-        mode = "x";
-        key = "<C-.>";
-        action = "$";
-        options.silent = true;
-      }
-      {
-        mode = "v";
-        key = "<C-.>";
-        action = "$";
-        options.silent = true;
-      }
-      {
-        mode = "n";
-        key = "<C-,>";
-        action = "^";
-        options.silent = true;
-      }
-      {
-        mode = "i";
-        key = "<C-,>";
-        action = "<ESC>^";
-        options.silent = true;
-      }
-      {
-        mode = "x";
-        key = "<C-,>";
-        action = "^";
-        options.silent = true;
-      }
-      {
-        mode = "v";
-        key = "<C-,>";
-        action = "^";
-        options.silent = true;
-      }
     ];
   };
 }
