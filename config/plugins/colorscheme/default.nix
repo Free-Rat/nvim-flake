@@ -14,6 +14,8 @@
     kanagawa = {
       enable = true;
       theme = "dragon";
+      transparent = true;
+
     };
   };
 }
