@@ -4,7 +4,7 @@
     ./lsp/lsp.nix
     ./lsp/trouble.nix
     ./lsp/none-ls.nix
-    ./tabline/bufferline.nix
+    # ./tabline/bufferline.nix
     ./statusline/lualine.nix
     ./colorscheme
     ./motion/flash.nix
@@ -19,7 +19,7 @@
     ./syntax/ts-context-commentstring.nix
     ./syntax/vim-nix.nix
     ./fuzzyFinder/telescope.nix
-    ./fileExplorer/nvim-tree.nix
+    # ./fileExplorer/nvim-tree.nix
     ./completion/nvim-cmp.nix
     ./debug/nvim-dap.nix
   ] ++ [
