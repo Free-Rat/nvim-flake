@@ -54,29 +54,33 @@
           enable = false;
           installLanguageServer = false;
         };
-        gopls = {
+        java-language-server = {
           enable = true;
           installLanguageServer = true;
-          extraOptions = {
-            settings = {
-              experimentalPostfixCompletions = true;
-              analyses = {
-                unusedparams = true;
-                shadow = true;
-              };
-              staticcheck = true;
-            };
-            init_options = {
-              usePlaceholders = true;
-            };
-          };
         };
-        rust-analyzer = {
-          enable = true;
-          installLanguageServer = true;
-          installCargo = true;
-          installRustc = true;
-        };
+        # gopls = {
+        #   enable = true;
+        #   installLanguageServer = true;
+        #   extraOptions = {
+        #     settings = {
+        #       experimentalPostfixCompletions = true;
+        #       analyses = {
+        #         unusedparams = true;
+        #         shadow = true;
+        #       };
+        #       staticcheck = true;
+        #     };
+        #     init_options = {
+        #       usePlaceholders = true;
+        #     };
+        #   };
+        # };
+        # rust-analyzer = {
+        #   enable = true;
+        #   installLanguageServer = true;
+        #   installCargo = true;
+        #   installRustc = true;
+        # };
         bashls = {
           enable = true;
           installLanguageServer = true;

@@ -21,6 +21,7 @@
     ./fuzzyFinder/telescope.nix
     # ./fileExplorer/nvim-tree.nix
     ./completion/nvim-cmp.nix
+    ./completion/copilot.nix
     ./debug/nvim-dap.nix
   ] ++ [
     ./utils/undotree.nix
