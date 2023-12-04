@@ -7,5 +7,6 @@
     cmp-path.enable = true;
     cmp_luasnip.enable = true;
     luasnip.enable = true;
+    # copilot-cmp.enable = true;
   };
 }

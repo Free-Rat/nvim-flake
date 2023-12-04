@@ -54,6 +54,10 @@
           enable = false;
           installLanguageServer = false;
         };
+        sourcekit = {
+          enable = true;
+          installLanguageServer = false;
+        };
         java-language-server = {
           enable = true;
           installLanguageServer = true;
@@ -97,18 +101,18 @@
           enable = true;
           installLanguageServer = true;
         };
-        html = {
-          enable = true;
-          installLanguageServer = false;
-        };
-        cssls = {
-          enable = true;
-          installLanguageServer = false;
-        };
-        tsserver = {
-          enable = true;
-          installLanguageServer = false;
-        };
+        # html = {
+        #   enable = true;
+        #   installLanguageServer = false;
+        # };
+        # cssls = {
+        #   enable = true;
+        #   installLanguageServer = false;
+        # };
+        # tsserver = {
+        #   enable = true;
+        #   installLanguageServer = false;
+        # };
       };
     };
     extraConfigLua = ''
