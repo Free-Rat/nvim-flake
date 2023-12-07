@@ -2,11 +2,19 @@
   config = {
     plugins.copilot-lua = {
       enable = true;
-      # suggestion.enable = false;
-      # panel.enable = false;
-      # suggestion.keymap = {
-      #   accept = 
-      # };
+      suggestion = {
+        enabled = true;
+        autoTrigger = true;
+        keymap = {
+          accept = "<M-j>";
+          acceptLine = "<M-l>";
+          acceptWord = "<M-w>";
+          # dismiss = "";
+          # next = "";
+          # prev = "";
+        };
+      };
+      panel.enabled = true;
     };
   };
 }
