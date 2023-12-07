@@ -31,5 +31,6 @@
     ./utils/todo-comments.nix
     ./utils/markdown-preview.nix
     ./utils/autopairs.nix
+    ./utils/neorg.nix
   ];
 }
