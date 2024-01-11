@@ -634,6 +634,18 @@
         "type": "github"
       }
     },
+    "qmk": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-lMI9QC+97+ak131Dskpi9rs2bFL2l0ow+yxKoV/WxQw=",
+        "type": "file",
+        "url": "https://github.com/codethread/qmk.nvim"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://github.com/codethread/qmk.nvim"
+      }
+    },
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
@@ -642,7 +654,8 @@
         "nixd": "nixd",
         "nixpkgs": "nixpkgs_4",
         "nixvim": "nixvim",
-        "pre-commit-hooks": "pre-commit-hooks_2"
+        "pre-commit-hooks": "pre-commit-hooks_2",
+        "qmk": "qmk"
       }
     },
     "rust-overlay": {

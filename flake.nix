@@ -1,5 +1,5 @@
 {
-  description = "Ruixi-rebirth's NixVim configuration";
+  description = "Free-Rat's NixVim configuration";
 
   inputs = {
     flake-parts.url = "github:hercules-ci/flake-parts";
@@ -12,6 +12,10 @@
     nil.url = "github:oxalica/nil";
     nixd.url = "github:nix-community/nixd";
     pre-commit-hooks.url = "github:cachix/pre-commit-hooks.nix";
+    qmk = {
+      url = "https://github.com/codethread/qmk.nvim";
+      flake = false;
+    };
   };
 
   outputs = inputs@{ nixpkgs, nixvim, ... }:

@@ -17,13 +17,13 @@
         options.desc = "save file";
         options.silent = true;
       }
-      {
-        mode = "n";
-        key = "Q";
-        action = ":qa<CR>";
-        options.desc = "quit neovim";
-        options.silent = true;
-      }
+      # {
+      #   mode = "n";
+      #   key = "Q";
+      #   action = ":qa<CR>";
+      #   options.desc = "quit neovim";
+      #   options.silent = true;
+      # }
       {
         mode = "i";
         key = "jk";

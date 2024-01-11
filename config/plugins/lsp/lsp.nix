@@ -91,7 +91,7 @@
         };
         clangd = {
           enable = true;
-          installLanguageServer = true;
+          installLanguageServer = false;
         };
         pyright = {
           enable = true;
